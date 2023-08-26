@@ -36,7 +36,7 @@ class _AddTaskPageState extends State<AddTaskPage> {
               decoration: InputDecoration(labelText: 'Description'),
             ),
             TextField(
-              controller: _dateController,
+              controller : _dateController,
               decoration: InputDecoration(labelText: 'Date (yyyy-MM-dd)'),
             ),
             TextField(
